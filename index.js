@@ -29,7 +29,7 @@ const logger = {
   banner: () => {
     console.log(`${colors.cyan}${colors.bold}`);
     console.log(`--------------------------------------------------`);
-    console.log(`    Merak Testnet Auto Bot - Airdrop Insiders     `);
+    console.log(`   🍉 19Seniman From Insiders -PLEASE SUPPORT PALESTINE ON SOCIAL MEDIA  🍉   `);
     console.log(`--------------------------------------------------${colors.reset}\n`);
   },
 };
