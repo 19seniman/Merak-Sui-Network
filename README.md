@@ -4,17 +4,17 @@ An automated bot for interacting with the Merak Testnet on Sui blockchain. This 
 
 ## Features
 
-- 🚀 Automated wrapping of SUI to wSUI
-- 🔄 Token swaps between various pairs:
+-  Automated wrapping of SUI to wSUI
+-  Token swaps  pairs:
   - wSUI ↔ wDUBHE
   - wSUI ↔ wSTARS
-- 💧 Liquidity provision to pools:
+-  Liquidity provision to pools:
   - wSUI-wDUBHE
   - wSUI-wSTARS
   - wDUBHE-wSTARS
-- ⏳ Configurable delays between transactions
-- 🔄 Multiple wallet support
-- 🌐 Proxy support (HTTP/SOCKS)
+-  Configurable delays between transactions
+-  Multiple wallet support
+-  Proxy support (HTTP/SOCKS)
 
 ## Prerequisites
 
@@ -26,8 +26,8 @@ An automated bot for interacting with the Merak Testnet on Sui blockchain. This 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/vikitoshi/Merak-Testnet-Auto-Bot.git
-cd Merak-Testnet-Auto-Bot
+git clone https://github.com/19seniman/Merak-Sui-Network.git
+cd Merak-Sui-Network
 ```
 
 2. Install dependencies:
@@ -37,15 +37,14 @@ npm install
 
 ## Configuration
 
-1. Create a `.env` file in the project root with your wallet private keys or mnemonics:
+1. fill your Pvkey & Memonic on .env
 ```
-PRIVATE_KEY_1=your_private_key_here
-MNEMONIC_1="your mnemonic phrase here"
-# Add more wallets as needed
+nano .env
 ```
 
-2. Optional: Add proxies to `proxies.txt` (one per line):
+2. fill your proxy on proxies.txt (one per line) if you have
 ```
+nano proxies.txt
 http://user:pass@ip:port
 socks5://user:pass@ip:port
 ```
