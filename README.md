@@ -40,11 +40,17 @@ npm install
 1. fill your Pvkey & Memonic on .env
 ```
 nano .env
+
+format :
+PRIVATE_KEY_1:your_private_key_here
+MNEMONIC_1="your mnemonic phrase here"
 ```
 
 2. fill your proxy on proxies.txt (one per line) if you have
 ```
 nano proxies.txt
+
+format:
 http://user:pass@ip:port
 socks5://user:pass@ip:port
 ```
@@ -55,24 +61,8 @@ Run the bot:
 node index.js
 ```
 
-The bot will:
-1. Ask for the number of transactions per wallet
-2. Process all configured operations for each wallet
-3. Show a countdown until the next daily run
 
-## Transaction Flow
-
-1. Wrap SUI to wSUI (if enabled)
-2. Perform token swaps (if enabled):
-   - wSUI → wDUBHE
-   - wDUBHE → wSUI
-   - wSUI → wSTARS
-   - wSTARS → wSUI
-3. Add liquidity to pools (if enabled):
-   - wSUI-wDUBHE
-   - wSUI-wSTARS
-   - wDUBHE-wSTARS
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+ MIT License - see the [LICENSE](LICENSE) file for details.
