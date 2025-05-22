@@ -42,7 +42,7 @@ npm install
 nano .env
 
 format :
-PRIVATE_KEY_1:your_private_key_here
+PRIVATE_KEY_1=your_private_key_here
 MNEMONIC_1="your mnemonic phrase here"
 ```
 
