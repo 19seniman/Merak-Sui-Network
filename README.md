@@ -1,4 +1,4 @@
-# Merak Testnet On Blockchaib Sui Network
+# Merak Testnet On Blockchain Sui Network
 
 An automated bot for interacting with the Merak Testnet on Sui blockchain. This bot performs various DeFi operations including wrapping SUI, token swaps, and adding liquidity to pools.
 
