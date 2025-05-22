@@ -1,4 +1,4 @@
-# Merak Testnet Auto Bot
+# Merak Testnet On Blockchaib Sui Network
 
 An automated bot for interacting with the Merak Testnet on Sui blockchain. This bot performs various DeFi operations including wrapping SUI, token swaps, and adding liquidity to pools.
 
@@ -60,7 +60,17 @@ Run the bot:
 ```bash
 node index.js
 ```
+##  🍉 Donate for  watermelon
 
+**EVM Address**  
+```
+0xf01fb9a6855f175d3f3e28e00fa617009c38ef59
+```
+
+**via Dana**  
+```
+085830000502
+```
 
 
 ## License
