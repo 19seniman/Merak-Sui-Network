@@ -60,6 +60,12 @@ Run the bot:
 ```bash
 node index.js
 ```
+
+## ERor?
+```
+npm uninstall @mysten/sui.js && npm install @mysten/sui.js
+```
+
 ##  🍉 Donate for  watermelon
 
 **EVM Address**  
