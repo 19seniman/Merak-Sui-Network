@@ -20,20 +20,18 @@ const colors = {
 
 const logger = {
   info: (msg) => console.log(`${colors.green}[✓] ${msg}${colors.reset}`),
-  warn: (msg) => console.log(`${colors.yellow}[⚠️] ${msg}${colors.reset}`),
+  wallet: (msg) => console.log(`${colors.yellow}[➤] ${msg}${colors.reset}`),
+  warn: (msg) => console.log(`${colors.yellow}[⚠] ${msg}${colors.reset}`),
   error: (msg) => console.log(`${colors.red}[✗] ${msg}${colors.reset}`),
   success: (msg) => console.log(`${colors.green}[✅] ${msg}${colors.reset}`),
-  loading: (msg) => console.log(`${colors.cyan}[⟳] ${msg}${colors.reset}`),
+  loading: (msg) => console.log(`\n${colors.cyan}[⏳] ${msg}${colors.reset}`),
   step: (msg) => console.log(`${colors.white}[➤] ${msg}${colors.reset}`),
-  countdown: (msg) => process.stdout.write(`\r${colors.blue}[⏰] ${msg}${colors.reset}`),
   banner: () => {
-    const { cyan, magenta, reset } = colors;
-    console.log(magenta + '=============================================' + reset);
-    console.log(cyan + '  🍉🍉PLEASE SUPPORT PALESTINE ON SOCIAL MEDIA 🍉🍉 ' + reset);
-    console.log(cyan + '       19Senniman from Insider' + reset);
-    console.log(magenta + '=============================================' + reset);
-    console.log();
-  }
+    console.log(`${colors.cyan}${colors.bold}`);
+    console.log(`--------------------------------------------------`);
+    console.log(`    Merak Testnet Auto Bot - Airdrop Insiders     `);
+    console.log(`--------------------------------------------------${colors.reset}\n`);
+  },
 };
 
 dotenv.config();
