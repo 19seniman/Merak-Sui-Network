@@ -29,7 +29,7 @@ const logger = {
   banner: () => {
     console.log(`${colors.cyan}${colors.bold}`);
     console.log(`--------------------------------------------------`);
-    console.log(`    🍉🍉 19Seniman From Airdrop Insiders-FREE PAALESTINE 🍉🍉   `);
+    console.log(`    🍉🍉 19Seniman From Insider - FREE PAALESTINE 🍉🍉   `);
     console.log(`--------------------------------------------------${colors.reset}\n`);
   },
 };
